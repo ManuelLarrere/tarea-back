@@ -1,1 +1,3 @@
 /node_modules
+.env
+//aca en el env podemos tener informacion sensible
