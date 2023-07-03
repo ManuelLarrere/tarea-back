@@ -11,6 +11,6 @@ const server = http.createServer(requestController)
 
 const PORT = process.env.PORT
 
-server.listen(4000, function() {
-    console.log("aplicacion corriendo" + PORT)
+server.listen(process.env.PORT, function() {
+    console.log("aplicacion Corriendo en " + PORT)
 })
